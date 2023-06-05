@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+    width: 100%;
+}
+body{
+    background: rgb(78,190,201);
+    background: linear-gradient(90deg, rgba(78,190,201,1) 0%, rgba(200,123,205,1) 50%, rgba(253,171,97,1) 100%);
+    color:#3b4252;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color:#3b4252;
+}
+p{
+    padding: 5px;
+    text-justify: inter-character;
+}
+a {
+    text-decoration: none;
+    color:#3b4252;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+
+}
+.containerInside {
+    margin: 40px 0 40px 0;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #e5e9f0;
+    height: 100%;
+    width: 95%;
+}
+.containerInside img{
+    align-items: center;
+    justify-content: center;
+}
+
+.marcelo{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.textos{
+    text-align: center;
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color:#dee2e6;
+    color: #3f4148;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+.objetivo h1, .profile h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    color:#3b4252;
+}
+
+.textoObjetivos{
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+
+.objetivo, .profile, .academic, .languages,
+.experiences, .courses{
+    width: 90%;
+    border-radius: 20px;
+    background-color:#dee2e6;
+    color: #3b4252;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}
+.objetivo h1, .profile h1, .academic h1, .languages h1,
+.experiences h1, h3, .courses h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    color:#3b4252;
+}
+.textoObjetivos, .profileTexts{
+    padding: 10px;
+    text-indent: 2em;
+}
+.academicTexts, .languageTexts, .experiencesTexts, .coursesTexts{
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+@media(max-width:600px){
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
